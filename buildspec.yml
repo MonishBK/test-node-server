@@ -30,5 +30,5 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: test-node-server
+  base-directory: ../test-node-server
   discard-paths: yes
