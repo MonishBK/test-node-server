@@ -27,4 +27,3 @@ artifacts:
   files:
     - '**/*'
   base-directory: test-node-server
-  discard-paths: yes
