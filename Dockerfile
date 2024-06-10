@@ -1,7 +1,8 @@
 FROM node:18-alpine
 
 # create app directory
-WORKDIR = /app
+RUN mkdir -p /usr/src/app
+WORKDIR = /usr/src/app
 
 # install all  dependencies
 COPY = package.json /app
