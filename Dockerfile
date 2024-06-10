@@ -6,7 +6,6 @@ WORKDIR /usr/src/app
 
 # install all  dependencies
 COPY package.json /usr/src/app
-RUN ls
 RUN npm install
 
 # Build app file
