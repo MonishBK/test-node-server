@@ -22,9 +22,13 @@ phases:
       - docker push "$DOCKER_REGISTRY_URL/$DOCKER_REGISTRY_USERNAME/simple-node-server:latest"
   post_build:
     commands:
-      - echo "Build completed!!.."
+      - echo "Build completed!"
+      - echo pwd
+      - echo "Directory contents:"
+      - ls -la
+
 artifacts:
   files:
     - '**/*'
   base-directory: test-node-server
-  discard-paths: yes 
+  discard-paths: yes
