@@ -9,6 +9,6 @@ COPY package.json /usr/src/app
 RUN npm install
 
 # Build app file
-COPY . /usr/src/app
+COPY . /usr/src/app 
 EXPOSE 3000-3010
 CMD ["npm", "start"]
