@@ -26,6 +26,8 @@ phases:
       - echo pwd
       - echo "Directory contents:"
       - ls -la
+      - cd ..
+      - ls -la
 
 artifacts:
   files:
